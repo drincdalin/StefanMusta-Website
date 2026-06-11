@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Subiecte — Concursul „Ștefan Musta"</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png">
+<link rel="apple-touch-icon" href="/favicon-192x192.png">
+</head>
+<body>
+<nav class="site-nav">
+  <div class="container nav-inner">
+    <a href="index.html" class="nav-logo">Σ <span>Ștefan Musta</span></a>
+    <button class="hamburger" id="hamburger" aria-label="Meniu"><span></span><span></span><span></span></button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Acasă</a></li>
+      <li><a href="despre.html">Despre</a></li>
+      <li class="has-dropdown">
+        <a href="subiecte.html" class="active">Arhivă</a>
+        <ul class="dropdown">
+          <li><a href="subiecte.html">Subiecte</a></li>
+          <li><a href="bareme.html">Bareme</a></li>
+        </ul>
+      </li>
+      <li><a href="regulament.html">Regulament</a></li>
+      <li><a href="fotografii.html">Fotografii</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfVkAj97CL5lxZuM5gY_nKLvlOKL-6MrF94ab_JER9RjoQviw/viewform?usp=sharing&ouid=100545832422507032232" target="_blank" rel="noopener" class="nav-cta">Înscrie-te</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="page-header">
+  <p class="section-tag">Resurse educaționale</p>
+  <h1 class="section-title">Arhivă <em>Subiecte</em></h1>
+  <p class="sub">Descarcă subiecte din edițiile anterioare pentru pregătirea concursului curent.</p>
+</div>
+
+<section style="padding:2.5rem 0 1rem;">
+  <div class="container">
+    <div style="display:flex; gap:.6rem; margin-bottom:2rem; flex-wrap:wrap;">
+      <a href="subiecte.html" class="btn-primary" style="font-size:.78rem; padding:.6rem 1.4rem;">📄 Subiecte</a>
+      <a href="bareme.html" class="btn-secondary" style="font-size:.78rem; padding:.6rem 1.4rem;">📋 Bareme</a>
+    </div>
+  </div>
+</section>
+
+<section style="padding:0 0 4rem;">
+  <div class="container">
+    <div class="archive-years">
+
+      <div class="year-card open">
+        <div class="year-header" onclick="toggleYear(this)">
+          <h3>Ediția XXXI — 2026</h3><span class="year-toggle">▼</span>
+        </div>
+        <div class="year-body">
+          <a class="download-item" href="subiecte/2026/SubiectV26.pdf">
+            <span class="download-icon">📄</span>
+            <div><div class="dl-title">Subiecte Cls. V</div><div class="dl-sub">PDF · 2026</div></div>
+          </a>
+          <a class="download-item" href="subiecte/2026/SubiectVI26.pdf" target="_blank">
+            <span class="download-icon">📄</span>
+            <div><div class="dl-title">Subiecte Cls. VI</div><div class="dl-sub">PDF · 2026</div></div>
+          </a>
+          <a class="download-item" href="subiecte/2026/SubiectVII26.pdf" target="_blank">
+            <span class="download-icon">📄</span>
+            <div><div class="dl-title">Subiecte Cls. VII</div><div class="dl-sub">PDF · 2026</div></div>
+          </a>
+          <a class="download-item" href="subiecte/2026/SubiectVIII26.pdf" target="_blank">
+            <span class="download-icon">📄</span>
+            <div><div class="dl-title">Subiecte Cls. VIII</div><div class="dl-sub">PDF · 2026</div></div>
+          </a>
+          <a class="download-item" href="subiecte/2026/SubiectIX26.pdf" target="_blank">
+            <span class="download-icon">📄</span>
+            <div><div class="dl-title">Subiecte Cls. IX</div><div class="dl-sub">PDF · 2026</div></div>
+          </a>
+          <a class="download-item" href="subiecte/2026/SubiectX26.pdf" target="_blank">
+            <span class="download-icon">📄</span>
+            <div><div class="dl-title">Subiecte Cls. X</div><div class="dl-sub">PDF · 2026</div></div>
+          </a>
+          <a class="download-item" href="subiecte/2026/SubiectXI26.pdf" target="_blank">
+            <span class="download-icon">📄</span>
+            <div><div class="dl-title">Subiecte Cls. XI</div><div class="dl-sub">PDF · 2026</div></div>
+          </a>
+          <a class="download-item" href="subiecte/2026/SubiectXII26.pdf" target="_blank">
+            <span class="download-icon">📄</span>
+            <div><div class="dl-title">Subiecte Cls. XII</div><div class="dl-sub">PDF · 2026</div></div>
+          </a>
+        </div>
+      </div>
+
+      <div class="year-card closed">
+        <div class="year-header" onclick="toggleYear(this)">
+          <h3>Ediția XXX — 2025</h3><span class="year-toggle">▼</span>
+        </div>
+        <div class="year-body">
+          <a class="download-item" href="subiecte/2025/SubiectV25.pdf">
+            <span class="download-icon">📄</span>
+            <div><div class="dl-title">Subiecte Cls. V</div><div class="dl-sub">PDF · 2025</div></div>
+          </a>
+          <a class="download-item" href="subiecte/2025/SubiectVI25.pdf" target="_blank">
+            <span class="download-icon">📄</span>
+            <div><div class="dl-title">Subiecte Cls. VI</div><div class="dl-sub">PDF · 2025</div></div>
+          </a>
+          <a class="download-item" href="subiecte/2025/SubiectVII25.pdf" target="_blank">
+            <span class="download-icon">📄</span>
+            <div><div class="dl-title">Subiecte Cls. VII</div><div class="dl-sub">PDF · 2025</div></div>
+          </a>
+          <a class="download-item" href="subiecte/2025/SubiectVIII25.pdf" target="_blank">
+            <span class="download-icon">📄</span>
+            <div><div class="dl-title">Subiecte Cls. VIII</div><div class="dl-sub">PDF · 2025</div></div>
+          </a>
+          <a class="download-item" href="subiecte/2025/SubiectIX25.pdf" target="_blank">
+            <span class="download-icon">📄</span>
+            <div><div class="dl-title">Subiecte Cls. IX</div><div class="dl-sub">PDF · 2025</div></div>
+          </a>
+          <a class="download-item" href="subiecte/2025/SubiectX25.pdf" target="_blank">
+            <span class="download-icon">📄</span>
+            <div><div class="dl-title">Subiecte Cls. X</div><div class="dl-sub">PDF · 2025</div></div>
+          </a>
+          <a class="download-item" href="subiecte/2025/SubiectXI25.pdf" target="_blank">
+            <span class="download-icon">📄</span>
+            <div><div class="dl-title">Subiecte Cls. XI</div><div class="dl-sub">PDF · 2025</div></div>
+          </a>
+          <a class="download-item" href="subiecte/2025/SubiectXII25.pdf" target="_blank">
+            <span class="download-icon">📄</span>
+            <div><div class="dl-title">Subiecte Cls. XII</div><div class="dl-sub">PDF · 2025</div></div>
+          </a>
+        </div>
+      </div>
+
+    </div>
+    <p style="color:var(--gray); font-size:.82rem; margin-top:2rem; text-align:center;">ℹ️ Fișierele vor fi disponibile după publicarea lor de către organizatori.</p>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-logo">Σ Ștefan Musta</div>
+  <div class="footer-links">
+    <a href="index.html">Acasă</a><a href="despre.html">Despre</a>
+    <a href="subiecte.html">Subiecte</a><a href="bareme.html">Bareme</a>
+    <a href="rezultate.html">Rezultate</a>
+    <a href="regulament.html">Regulament</a><a href="contact.html">Contact</a>
+  </div>
+  <p>© 2026 Concursul de Matematică „Ștefan Musta" · CNSV Beiuș</p>
+</footer>
+<script src="js/app.js"></script>
+</body>
+</html>

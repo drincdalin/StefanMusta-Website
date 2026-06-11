@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bareme — Concursul „Ștefan Musta"</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png">
+<link rel="apple-touch-icon" href="/favicon-192x192.png">
+</head>
+<body>
+<nav class="site-nav">
+  <div class="container nav-inner">
+    <a href="index.html" class="nav-logo">Σ <span>Ștefan Musta</span></a>
+    <button class="hamburger" id="hamburger" aria-label="Meniu"><span></span><span></span><span></span></button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Acasă</a></li>
+      <li><a href="despre.html">Despre</a></li>
+      <li class="has-dropdown">
+        <a href="subiecte.html" class="active">Arhivă</a>
+        <ul class="dropdown">
+          <li><a href="subiecte.html">Subiecte</a></li>
+          <li><a href="bareme.html">Bareme</a></li>
+        </ul>
+      </li>
+      <li><a href="regulament.html">Regulament</a></li>
+      <li><a href="fotografii.html">Fotografii</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfVkAj97CL5lxZuM5gY_nKLvlOKL-6MrF94ab_JER9RjoQviw/viewform?usp=sharing&ouid=100545832422507032232" target="_blank" rel="noopener" class="nav-cta">Înscrie-te</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="page-header">
+  <p class="section-tag">Resurse educaționale</p>
+  <h1 class="section-title">Arhivă <em>Bareme</em></h1>
+  <p class="sub">Descarcă baremele de corectare din edițiile anterioare ale concursului.</p>
+</div>
+
+<section style="padding:2.5rem 0 1rem;">
+  <div class="container">
+    <div style="display:flex; gap:.6rem; margin-bottom:2rem; flex-wrap:wrap;">
+      <a href="subiecte.html" class="btn-secondary" style="font-size:.78rem; padding:.6rem 1.4rem;">📄 Subiecte</a>
+      <a href="bareme.html" class="btn-primary" style="font-size:.78rem; padding:.6rem 1.4rem;">📋 Bareme</a>
+    </div>
+  </div>
+</section>
+
+<section style="padding:0 0 4rem;">
+  <div class="container">
+    <div class="archive-years">
+
+      <div class="year-card open">
+        <div class="year-header" onclick="toggleYear(this)">
+          <h3>Ediția XXXI — 2026</h3><span class="year-toggle">▼</span>
+        </div>
+        <div class="year-body">
+          <a class="download-item" href="bareme/2026/BaremV26.pdf" target="_blank"><span class="download-icon">📋</span><div><div class="dl-title">Barem Cls. V</div><div class="dl-sub">PDF · 2026</div></div></a>
+          <a class="download-item" href="bareme/2026/BaremVI26.pdf" target="_blank"><span class="download-icon">📋</span><div><div class="dl-title">Barem Cls. VI</div><div class="dl-sub">PDF · 2026</div></div></a>
+          <a class="download-item" href="bareme/2026/BaremVII26.pdf" target="_blank"><span class="download-icon">📋</span><div><div class="dl-title">Barem Cls. VII</div><div class="dl-sub">PDF · 2026</div></div></a>
+          <a class="download-item" href="bareme/2026/BaremVIII26.pdf" target="_blank"><span class="download-icon">📋</span><div><div class="dl-title">Barem Cls. VIII</div><div class="dl-sub">PDF · 2026</div></div></a>
+          <a class="download-item" href="bareme/2026/BaremIX26.pdf" target="_blank"><span class="download-icon">📋</span><div><div class="dl-title">Barem Cls. IX</div><div class="dl-sub">PDF · 2026</div></div></a>
+          <a class="download-item" href="bareme/2026/BaremX26.pdf" target="_blank"><span class="download-icon">📋</span><div><div class="dl-title">Barem Cls. X</div><div class="dl-sub">PDF · 2026</div></div></a>
+          <a class="download-item" href="bareme/2026/BaremXI26.pdf" target="_blank"><span class="download-icon">📋</span><div><div class="dl-title">Barem Cls. XI</div><div class="dl-sub">PDF · 2026</div></div></a>
+          <a class="download-item" href="bareme/2026/BaremXII26.pdf" target="_blank"><span class="download-icon">📋</span><div><div class="dl-title">Barem Cls. XII</div><div class="dl-sub">PDF · 2026</div></div></a>
+        </div>
+      </div>
+
+    </div>
+
+      <div class="year-card closed">
+        <div class="year-header" onclick="toggleYear(this)">
+          <h3>Ediția XXX — 2025</h3><span class="year-toggle">▼</span>
+        </div>
+        <div class="year-body">
+          <a class="download-item" href="bareme/2025/BaremV25.pdf" target="_blank"><span class="download-icon">📋</span><div><div class="dl-title">Barem Cls. V</div><div class="dl-sub">PDF · 2025</div></div></a>
+          <a class="download-item" href="bareme/2025/BaremVI25.pdf" target="_blank"><span class="download-icon">📋</span><div><div class="dl-title">Barem Cls. VI</div><div class="dl-sub">PDF · 2025</div></div></a>
+          <a class="download-item" href="bareme/2025/BaremVII25.pdf" target="_blank"><span class="download-icon">📋</span><div><div class="dl-title">Barem Cls. VII</div><div class="dl-sub">PDF · 2025</div></div></a>
+          <a class="download-item" href="bareme/2025/BaremVIII25.pdf" target="_blank"><span class="download-icon">📋</span><div><div class="dl-title">Barem Cls. VIII</div><div class="dl-sub">PDF · 2025</div></div></a>
+          <a class="download-item" href="bareme/2025/BaremIX25.pdf" target="_blank"><span class="download-icon">📋</span><div><div class="dl-title">Barem Cls. IX</div><div class="dl-sub">PDF · 2025</div></div></a>
+          <a class="download-item" href="bareme/2025/BaremX25.pdf" target="_blank"><span class="download-icon">📋</span><div><div class="dl-title">Barem Cls. X</div><div class="dl-sub">PDF · 2025</div></div></a>
+          <a class="download-item" href="bareme/2025/BaremXI25.pdf" target="_blank"><span class="download-icon">📋</span><div><div class="dl-title">Barem Cls. XI</div><div class="dl-sub">PDF · 2025</div></div></a>
+          <a class="download-item" href="bareme/2025/BaremXII25.pdf" target="_blank"><span class="download-icon">📋</span><div><div class="dl-title">Barem Cls. XII</div><div class="dl-sub">PDF · 2025</div></div></a>
+        </div>
+      </div>
+
+    </div>
+    <p style="color:var(--gray); font-size:.82rem; margin-top:2rem; text-align:center;">ℹ️ Baremele se publică pe site imediat după finalizarea probei.</p>
+  </div>
+</section>
+
+<!--<section style="padding:0 0 4rem;">
+  <div class="container">
+    <div class="archive-years">
+
+      <div class="year-card closed">
+        <div class="year-header" onclick="toggleYear(this)">
+          <h3>Ediția XXX — 2025</h3><span class="year-toggle">▼</span>
+        </div>
+        <div class="year-body">
+          <a class="download-item" href="bareme/2025/BaremV25.pdf" target="_blank"><span class="download-icon">📋</span><div><div class="dl-title">Barem Cls. V</div><div class="dl-sub">PDF · 2025</div></div></a>
+          <a class="download-item" href="bareme/2025/BaremVI25.pdf" target="_blank"><span class="download-icon">📋</span><div><div class="dl-title">Barem Cls. VI</div><div class="dl-sub">PDF · 2025</div></div></a>
+          <a class="download-item" href="bareme/2025/BaremVII25.pdf" target="_blank"><span class="download-icon">📋</span><div><div class="dl-title">Barem Cls. VII</div><div class="dl-sub">PDF · 2025</div></div></a>
+          <a class="download-item" href="bareme/2025/BaremVIII25.pdf" target="_blank"><span class="download-icon">📋</span><div><div class="dl-title">Barem Cls. VIII</div><div class="dl-sub">PDF · 2025</div></div></a>
+          <a class="download-item" href="bareme/2025/BaremIX25.pdf" target="_blank"><span class="download-icon">📋</span><div><div class="dl-title">Barem Cls. IX</div><div class="dl-sub">PDF · 2025</div></div></a>
+          <a class="download-item" href="bareme/2025/BaremX25.pdf" target="_blank"><span class="download-icon">📋</span><div><div class="dl-title">Barem Cls. X</div><div class="dl-sub">PDF · 2025</div></div></a>
+          <a class="download-item" href="bareme/2025/BaremXI25.pdf" target="_blank"><span class="download-icon">📋</span><div><div class="dl-title">Barem Cls. XI</div><div class="dl-sub">PDF · 2025</div></div></a>
+          <a class="download-item" href="bareme/2025/BaremXII25.pdf" target="_blank"><span class="download-icon">📋</span><div><div class="dl-title">Barem Cls. XII</div><div class="dl-sub">PDF · 2025</div></div></a>
+        </div>
+      </div>
+</section>
+-->
+
+<footer class="site-footer">
+  <div class="footer-logo">Σ Ștefan Musta</div>
+  <div class="footer-links">
+    <a href="index.html">Acasă</a><a href="despre.html">Despre</a>
+    <a href="subiecte.html">Subiecte</a><a href="bareme.html">Bareme</a>
+    <a href="rezultate.html">Rezultate</a>
+    <a href="regulament.html">Regulament</a><a href="contact.html">Contact</a>
+  </div>
+  <p>© 2026 Concursul de Matematică „Ștefan Musta" · CNSV Beiuș</p>
+</footer>
+<script src="js/app.js"></script>
+</body>
+</html>
